@@ -176,6 +176,10 @@ function! UserConfig()
     " If you enable airline layer and have installed the powerline fonts, set it here.
     " let g:airline_powerline_fonts=1
     " color desert
+    " 自动换行
+    set wrap
+    " 鼠标事件
+    set mouse-=a
 
 endfunction
 DOTSPACEVIM
