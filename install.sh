@@ -180,6 +180,8 @@ function! UserConfig()
     set wrap
     " 鼠标事件
     set mouse-=a
+    " 禁止相对行号
+    set norelativenumber
 
 endfunction
 DOTSPACEVIM
